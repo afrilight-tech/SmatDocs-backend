@@ -25,8 +25,8 @@ SECRET_KEY ='django-insecure-=z0pw(-mj5lpmo4%@1d*wn!2m&#5yx6k)63r*aia!f&*o2)80&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['smartdocs-backend.onrender.com', 'localhost']
-CSRF_TRUSTED_ORIGINS = ['https://smartdocs-backend.onrender.com', 'http://localhost:5173/', 'https://smartdocs.ng']
+ALLOWED_HOSTS = ['smartdocs-api.onrender.com', 'localhost']
+CSRF_TRUSTED_ORIGINS = ['https://smartdocs-api.onrender.com', 'http://localhost:5173/', 'https://smartdocs.ng']
 CSRF_COOKIE_HTTPONLY = True
 CSRF_COOKIE_SECURE = True
 
